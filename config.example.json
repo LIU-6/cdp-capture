@@ -1,0 +1,22 @@
+{
+  "cdp_base": "http://127.0.0.1:9222",
+  "capture": "both",
+  "reload": true,
+  "page_hint": "example.com/app",
+  "output_dir": "capture_data/session_a",
+  "overwrite": false,
+  "no_raw": false,
+  "print_match": true,
+  "ws_url_match": [
+    "socket"
+  ],
+  "http_url_match": [
+    "api"
+  ],
+  "ws_match": [
+    "eventName"
+  ],
+  "http_match": [
+    "status"
+  ]
+}

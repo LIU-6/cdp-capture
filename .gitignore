@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.pyo
+
+capture_data/
+logs/
+
+*.log
+*.out
+
+config.json
+*.local.json
